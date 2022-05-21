@@ -5,7 +5,7 @@ import os.path
 def convert(file: str) -> dict:
     questions = re.findall(r'"textarea_question_text">([\s\S]*?)<', file)
     answers = re.findall(
-        r'"(.*?)(?:\.*?)(?:. This was the correct answer|. You selected this answer. This was the correct answer.)', file)
+        r'"(.*?)(?:\.*?)(?:. This was the correct answer.|. You selected this answer. This was the correct answer.)', file)
 
     raw_pairs = dict(zip(questions, answers))
     pairs = {}

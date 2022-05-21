@@ -1,0 +1,5 @@
+A mathematician tells her son, "I will give you $100 only if you pass the class." Being a mathematician, she means exactly what she said.Check all true statements about this situation.	If he passes the class, she may pay him $100.
+Her statement defined passing the class as a necessary condition for receiving the $100.
+If she ended up paying him $100, he must have passed the class.
+If he doesn't pass the class, she will definitely not pay him $100.
+He will not get the $100 unless he passes the class.;

@@ -1,0 +1,12 @@
+Match the binary logical operators to their truth tables.Table ATable BTable CTable Dpq???TTTTFFFTTFFTpq???TTTTFTFTFFFTpq???TTFTFTFTTFFTpq???TTTTFTFTTFFF	p → q. You selected A
+q → p. You selected B
+p → ¬q. You selected C
+¬p → q. You selected D;
+Match the binary logical operators to their truth tables.Table ATable BTable CTable Dpq???TTTTFFFTFFFFpq???TTFTFTFTFFFFpq???TTFTFFFTTFFFpq???TTFTFFFTFFFT	p∧q. You selected A
+p∧¬q. You selected B
+¬p∧q. You selected C
+¬p∧¬q. You selected D;
+Match the binary logical operators to their truth tables.Table ATable BTable CTable Dpq???TTTTFTFTTFFFpq???TTTTFTFTFFFTpq???TTTTFFFTTFFTpq???TTFTFTFTTFFT	p∨q. You selected A
+p∨¬q. You selected B
+¬p∨q. You selected C
+¬p∨¬q. You selected D;

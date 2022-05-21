@@ -1,0 +1,12 @@
+According to Stephen Few, what is the purpose of visualization?	Visualization uses exploratory data analysis to find trends and patterns in datasets;
+Qualitative color scheme is best suited to which type of data?	Nominal;
+Which color scheme is best suited for ratio data where there is a meaningful zero point?	Divergent;
+Which statement describes the best practices of using colors effectively?	Use adjacent colors that vary in hue and value.;
+An online shopping website wants to visualize the behavior of its clients while they navigate through the site pages. Selecting customers within the ages of 20 and 50 would be done in which step of the visualization pipeline?	Filtering;
+Which of the following shapes should not be used when illustrating Bertin's orientation variable?	Figure 1;
+How many visual variables were identified by Bertin?	7;
+The use of computer-supported, interactive, visual representations of data to amplify cognition is defined by which term?	;
+Which figure represents the qualitative color scheme?	Figure 1;
+Which of the following is true for the visualization?(Select all that apply)	Visualization is a process of mapping information to visuals.
+Visualization can reveal unexpected patterns and trends in the data.
+Visualization can mislead and distort the truth when not used correctly.;
