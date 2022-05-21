@@ -1,2 +1,20 @@
-In this exercise, let P and Q be predicates. Mark all statements that must be true, no matter what P and Q are.	If P(x) is true for all x or Q(x) is true for all x, then Px()∨Q(x) is true for all x
-Mark all true statements.	If P(x)∨Q(x) is true for some x, then P(x) is true for some x, or Q(x) is true for some x
+In this exercise, let P and Q be predicates. Mark all statements that must be true, no matter what P and Q are.	If P(x)∧Q(x) is true for all x, then P(x) is true for all x and Q(x) is true for all x.
+
+If P(x) is true for all x or Q(x) is true for all x, then Px()∨Q(x) is true for all x.
+
+If P(x) is true for all x and Q(x) is true for all x, then P(x)∧Q(x) is true for all x.;
+In this exercise, let P and Q be predicates. Mark all statements that must be true, no matter what P and Q are.	If P(x)∨Q(x) is true for some x, then P(x) is true for some x, or Q(x) is true for some x.
+
+If P(x)∧Q(x) is true for some x, then P(x) is true for some x and Q(x) is true for some x.
+
+If P(x) is true for some x or Q(x) is true for some x, then P(x)∨Q(x) is true for some x.;
+Mark all true statements.	If everyone owns a dog, or everyone owns a cat, then it must be true that everyone owns a dog or a cat.
+
+If everyone owns a dog and a cat, then everyone owns a dog and everyone owns a cat.
+
+If everyone owns a dog and everyone owns a cat, then it must be true that everyone owns a dog and a cat. ;
+Mark all true statements.	If some people own a dog and a cat, then some people own a dog and some people own a cat.
+
+If some people own a dog, or some people own a cat, then it must be true that some people own a dog or a cat. 
+
+If some people own a dog or a cat, then some people own a dog, or some people own a cat.;
