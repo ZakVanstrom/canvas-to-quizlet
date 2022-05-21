@@ -1,5 +1,0 @@
-True or False? If x is a real number, then 2·3ˣ = 6ˣ.	False
-If x is a real number, then 3ˣ + 5ˣ	cannot be simplified
-If x is a real number, then 3ˣ · 5ˣ	= 15ˣ
-If x is a positive real number, then log(xˣ) =	x · log(x)
-Check all approaches that may be used to factor a cubic.	True

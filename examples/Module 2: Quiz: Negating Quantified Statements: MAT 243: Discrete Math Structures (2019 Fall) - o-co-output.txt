@@ -1,1 +1,0 @@
-What is the correct negation of &quot;There is someone in Spain who speaks at least 10 languages.&quot; ?	&quot;Everyone in Spain speaks at most 9 languages.&quot;
