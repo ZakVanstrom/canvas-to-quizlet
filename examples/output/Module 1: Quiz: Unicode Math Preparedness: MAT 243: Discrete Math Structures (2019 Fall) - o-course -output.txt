@@ -1,0 +1,8 @@
+Logical symbols: ∨ ∧ ¬ ∀ ∃ → ↔ ≡ ≢ ⊕ ↦ (11 symbols)	True
+Arithmetic symbols: ÷ · × √ ∛ ∜ ± ↑ ⋆ ∘ ⌊ ⌋ ⌈ ⌉ (14 symbols)	True
+Comparison operators: ≠ ≤ ≥ ≃ ≅ (5 symbols)	True
+Simple fractions: ½ ⅓ ⅔ ¼ (4 symbols)	True
+Sets and set operators: ∅ ℕ ℤ ℚ ℝ ℂ ∊ ∈ ∉ ∩ ∪ ⊂ ⊃ ⊆ ⊇ (15 symbols)	True
+Superscripts: ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾ ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ (40 symbols)	True
+subscripts: ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₊ ₋ ₌ ₍ ₎ ₐ ₑ ₒ ₓ ₕ ₖ ₗ ₘ ₙ ₚ ₛ ₜ (27 symbols)	True
+If I could not view some of the characters above, and do not change the configuration of my browser or device, I may not be able to view quiz or exam questions correctly.	True
