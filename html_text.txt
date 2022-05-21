@@ -1,0 +1,677 @@
+Module 1: Graded Quiz: CSE 578: Data Visualization (2022 Spring)
+You need to have JavaScript enabled in order to access this site.
+Close
+My Dashboard
+2022Spring-T-CSE578-23992QuizzesModule 1: Graded Quiz
+      Module 1: Graded Quiz
+Due
+          Jan 23 at 11:59pm
+Points
+10
+Questions
+10
+Available
+        after Jan 9 at 11:59pm
+Time Limit
+        480 Minutes
+    Score for this quiz:
+  8 out of 10
+  Submitted Jan 23 at 11:56pm
+  This attempt took 13 minutes.
+Move To...
+        This element is a more accessible alternative to drag & drop reordering. Press Enter or Space to move this question.
+Question 1
+                1
+           / 1 pts
+Edit this Question
+Delete this Question
+0
+multiple_choice_question
+<span>According to Stephen Few, what is the purpose of visualization?</span>
+According to Stephen Few, what is the purpose of visualization?
+72213
+Visualization uses exploratory data analysis to find trends and patterns in datasets
+Visualization uses exploratory data analysis to find trends and patterns in datasets
+exact_answer
+none
+10952759
+72213
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+Correct!
+33870
+Visualization uses tables to find trends and patterns in datasets.
+Visualization uses tables to find trends and patterns in datasets.
+exact_answer
+none
+10952759
+33870
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+40160
+Visualization uses textual representation of data to find trends and patterns in datasets.
+Visualization uses textual representation of data to find trends and patterns in datasets.
+exact_answer
+none
+10952759
+40160
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+69522
+Visualization uses exploratory data analysis to summarize data for reporting purposes.
+Visualization uses exploratory data analysis to summarize data for reporting purposes.
+exact_answer
+none
+10952759
+69522
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+Move To...
+        This element is a more accessible alternative to drag & drop reordering. Press Enter or Space to move this question.
+Question 2
+                1
+           / 1 pts
+Edit this Question
+Delete this Question
+0
+multiple_choice_question
+<span>Qualitative color scheme is best suited to which type of data?</span>
+Qualitative color scheme is best suited to which type of data?
+93190
+Nominal
+Nominal
+exact_answer
+none
+10952760
+93190
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+Correct!
+Correct!
+29006
+Ordinal
+Ordinal
+exact_answer
+none
+10952760
+29006
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+78838
+Interval
+Interval
+exact_answer
+none
+10952760
+78838
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+93427
+Ratio
+Ratio
+exact_answer
+none
+10952760
+93427
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+Move To...
+        This element is a more accessible alternative to drag & drop reordering. Press Enter or Space to move this question.
+Question 3
+                1
+           / 1 pts
+Edit this Question
+Delete this Question
+0
+multiple_choice_question
+<span>Which color scheme is best suited for ratio data where there is a meaningful zero point?</span>
+Which color scheme is best suited for ratio data where there is a meaningful zero point?
+75899
+Divergent
+Divergent
+exact_answer
+none
+10952761
+75899
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+Correct!
+Correct!
+37689
+Rainbow
+Rainbow
+exact_answer
+none
+10952761
+37689
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+83633
+Sequential
+Sequential
+exact_answer
+none
+10952761
+83633
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+43430
+Vector
+Vector
+exact_answer
+none
+10952761
+43430
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+Move To...
+        This element is a more accessible alternative to drag & drop reordering. Press Enter or Space to move this question.
+Question 4
+                1
+           / 1 pts
+Edit this Question
+Delete this Question
+0
+multiple_choice_question
+<span>Which statement describes the best practices of using colors effectively?</span>
+Which statement describes the best practices of using colors effectively?
+43191
+Use adjacent colors that vary in hue and value.
+Use adjacent colors that vary in hue and value.
+exact_answer
+none
+10952762
+43191
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+Correct!
+11243
+Use highly saturated colors for large regions.
+Use highly saturated colors for large regions.
+exact_answer
+none
+10952762
+11243
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+91651
+Use spectrally extreme colors together.
+Use spectrally extreme colors together.
+exact_answer
+none
+10952762
+91651
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+8227
+No answer text provided.
+No answer text provided.
+exact_answer
+none
+10952762
+8227
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+Move To...
+        This element is a more accessible alternative to drag & drop reordering. Press Enter or Space to move this question.
+Question 5
+                1
+           / 1 pts
+Edit this Question
+Delete this Question
+0
+multiple_choice_question
+<span>An online shopping website wants to visualize the behavior of its clients while they navigate through the site pages. Selecting customers within the ages of 20 and 50 would be done in which step of the visualization pipeline?</span>
+An online shopping website wants to visualize the behavior of its clients while they navigate through the site pages. Selecting customers within the ages of 20 and 50 would be done in which step of the visualization pipeline?
+55108
+Filtering
+Filtering
+exact_answer
+none
+10952763
+55108
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+Correct!
+Correct!
+70016
+Analysis
+Analysis
+exact_answer
+none
+10952763
+70016
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+12264
+Mapping
+Mapping
+exact_answer
+none
+10952763
+12264
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+38803
+Rendering
+Rendering
+exact_answer
+none
+10952763
+38803
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+Move To...
+        This element is a more accessible alternative to drag & drop reordering. Press Enter or Space to move this question.
+Question 6
+                0
+           / 1 pts
+Edit this Question
+Delete this Question
+0
+multiple_answers_question
+<p><span>Which of the following shapes should not be used when illustrating Bertin's orientation variable?</span></p>
+<p><span><img src="/courses/103842/files/40319337/preview" alt="Week1Quiz.PNG"></span></p>
+Which of the following shapes should not be used when illustrating Bertin's orientation variable?
+93008
+Figure 1
+Figure 1
+                      Your Answer:
+                (You left this blank)
+It was really: 
+exact_answer
+none
+10952764
+93008
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+17017
+Figure 3
+Figure 3
+exact_answer
+none
+10952764
+17017
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+60617
+Figure 2
+Figure 2
+                      Your Answer:
+                (You left this blank)
+It was really: 
+exact_answer
+none
+10952764
+60617
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+22112
+No answer text provided.
+No answer text provided.
+exact_answer
+none
+10952764
+22112
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+Move To...
+        This element is a more accessible alternative to drag & drop reordering. Press Enter or Space to move this question.
+Question 7
+                1
+           / 1 pts
+Edit this Question
+Delete this Question
+0
+multiple_choice_question
+<span>How many visual variables were identified by Bertin?</span>
+How many visual variables were identified by Bertin?
+13013
+7
+7
+exact_answer
+none
+10952765
+13013
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+11445
+<7
+<7
+exact_answer
+none
+10952765
+11445
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+66677
+>7
+>7
+exact_answer
+none
+10952765
+66677
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+98706
+No answer text provided.
+No answer text provided.
+exact_answer
+none
+10952765
+98706
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+Move To...
+        This element is a more accessible alternative to drag & drop reordering. Press Enter or Space to move this question.
+Question 8
+                0
+           / 1 pts
+Edit this Question
+Delete this Question
+0
+short_answer_question
+<span>The use of computer-supported, interactive, visual representations of data to amplify cognition is defined by which term?</span>
+The use of computer-supported, interactive, visual representations of data to amplify cognition is defined by which term?
+14472
+Visualization
+Visualization
+exact_answer
+none
+10952766
+14472
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+75856
+visualization
+visualization
+exact_answer
+none
+10952766
+75856
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+Move To...
+        This element is a more accessible alternative to drag & drop reordering. Press Enter or Space to move this question.
+Question 9
+                1
+           / 1 pts
+Edit this Question
+Delete this Question
+0
+multiple_choice_question
+<p><span>Which figure represents the qualitative color scheme?</span></p>
+<p><span><img src="/courses/103842/files/40319335/preview" alt="Week1Quiz2.PNG" width="270" height="353"></span></p>
+Which figure represents the qualitative color scheme?
+58065
+Figure 1
+Figure 1
+exact_answer
+none
+10952767
+58065
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+Correct!
+61136
+Figure 2
+Figure 2
+exact_answer
+none
+10952767
+61136
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+14642
+Figure 3
+Figure 3
+exact_answer
+none
+10952767
+14642
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+Move To...
+        This element is a more accessible alternative to drag & drop reordering. Press Enter or Space to move this question.
+Question 10
+                1
+           / 1 pts
+Edit this Question
+Delete this Question
+0
+multiple_answers_question
+<span>Which of the following is true for the visualization?(Select all that apply)</span>
+Which of the following is true for the visualization?(Select all that apply)
+49007
+Visualization is a process of mapping information to visuals.
+Visualization is a process of mapping information to visuals.
+                      Your Answer:
+                (You left this blank)
+It was really: 
+exact_answer
+none
+10952768
+49007
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+72951
+Visualization can reveal unexpected patterns and trends in the data.
+Visualization can reveal unexpected patterns and trends in the data.
+                      Your Answer:
+                (You left this blank)
+It was really: 
+exact_answer
+none
+10952768
+72951
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+92042
+Visualization can mislead and distort the truth when not used correctly.
+Visualization can mislead and distort the truth when not used correctly.
+                      Your Answer:
+                (You left this blank)
+It was really: 
+exact_answer
+none
+10952768
+92042
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+100
+98880
+Visualization can reveal problems with the source of the data.
+Visualization can reveal problems with the source of the data.
+exact_answer
+none
+10952768
+98880
+0 (with margin: 0)
+          0
+         (with precision: 10)
+        Between 0 and 0
+        margin of error
+          +/-
+0
+    Quiz Score:
+  8 out of 10
+176331e2-25ae-47af-8362-30f2b19ee544

@@ -1,9 +1,11 @@
 import re
 import os.path
 
+
 def convert(file: str) -> dict:
     questions = re.findall(r'"textarea_question_text">([\s\S]*?)<', file)
-    answers = re.findall(r'"(.*?)(?:\.*?)(?:. This was the correct answer|. You selected this answer. This was the correct answer.)', file)
+    answers = re.findall(
+        r'"(.*?)(?:\.*?)(?:. This was the correct answer|. You selected this answer. This was the correct answer.)', file)
 
     raw_pairs = dict(zip(questions, answers))
     pairs = {}
@@ -26,14 +28,14 @@ def write_pairs(pairs: dict, location: str):
 def main():
     input_path = input("Enter the Input File Path")
     split = os.path.split(input_path)
-    
-    output_path = input_parent_path + 
+    output_path = split[0] + "/" + split[1].split('.')[0] + "-output.txt"
+
     file = open(input_path, "r", encoding="utf8").read().strip()
 
     pairs = convert(file)
-    write_pairs(pairs, out_location)
+    write_pairs(pairs, output_path)
 
-    print(f'Flashcards written to {out_location}. To import into Quizlet:')
+    print(f'Flashcards written to {output_path}. To import into Quizlet:')
 
 
 if __name__ == "__main__":
