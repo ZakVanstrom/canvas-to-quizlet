@@ -1,0 +1,100 @@
+In this exercise, let P and Q be predicates. Mark all statements that must be true, no matter what P and Q are.	If P(x)∧Q(x) is true for all x, then P(x) is true for all x and Q(x) is true for all x.
+If P(x) is true for all x or Q(x) is true for all x, then Px()∨Q(x) is true for all x.
+If P(x) is true for all x and Q(x) is true for all x, then P(x)∧Q(x) is true for all x.;
+In this exercise, let P and Q be predicates. Mark all statements that must be true, no matter what P and Q are.	If P(x)∨Q(x) is true for some x, then P(x) is true for some x, or Q(x) is true for some x.
+If P(x)∧Q(x) is true for some x, then P(x) is true for some x and Q(x) is true for some x.
+If P(x) is true for some x or Q(x) is true for some x, then P(x)∨Q(x) is true for some x.;
+Mark all true statements.	If everyone owns a dog, or everyone owns a cat, then it must be true that everyone owns a dog or a cat.
+If everyone owns a dog and a cat, then everyone owns a dog and everyone owns a cat.
+If everyone owns a dog and everyone owns a cat, then it must be true that everyone owns a dog and a cat. ;
+Mark all true statements.	If some people own a dog and a cat, then some people own a dog and some people own a cat.
+If some people own a dog, or some people own a cat, then it must be true that some people own a dog or a cat. 
+If some people own a dog or a cat, then some people own a dog, or some people own a cat.;
+Given the conditional If I eat too much, I will gain weight, identify converse, inverse and contrapositive. Don't over-analyze the tenses, we're not modeling the temporal relationship here, only the causal relationship.	Converse. You selected If I am gaining weight, I am eating too much.
+Inverse. You selected If I don't eat too much, I won't gain weight.
+Contrapositive. You selected If I'm not gaining weight, I'm not eating too much.;
+Select which one(s) of the following conditionals are equivalent toTo gain financial independence, it is sufficient to win the lottery.	If you win the lottery, you will gain financial independence.;
+Select which one(s) of the following conditionals are equivalent toI get pulled over only if I drive too fast.	If I don't drive too fast, I don't get pulled over.
+If I get pulled over, I was driving too fast.;
+Select which one(s) of the following conditionals are equivalent to Rain is a necessary condition for a rainbow.	If there is a rainbow, then there is rain.
+If there is no rain, then there is no rainbow.;
+Select which one(s) of the following conditionals are equivalent toYou will get sick unless you eat your vegetables.	If you don't eat your vegetables, you will get sick.
+If you are not sick, then you are eating your vegetables.;
+Check all statements that are equivalent toIf the sky is not clear, then you don’t see the stars.	You see the stars only if the sky is clear.
+You don’t see the stars unless the sky is clear.
+Clear sky is necessary to see the stars.;
+Let P be the predicate defined by P(x,y) = "x owns y".Match each English                              statement with the corresponding formal expression that means the same thing.The phrase "public property" refers to an object that is owned by everyone.	Jane owns the house.. You selected P(Jane, house)
+Josh doesn't own the cat.. You selected ¬P(Josh, cat)
+(meaningless expression). You selected P(Josh, ¬cat)
+Everyone owns something.. You selected ∀x ∃y P(x,y)
+Everything is owned by someone.. You selected ∀y ∃x P(x,y)
+Some things don't have an owner.. You selected ∃y ∀x ¬P(x,y)
+Some things are not public property.. You selected ∃y ∃x ¬P(x,y)
+Some people own nothing.. You selected ∃x ∀y ¬P(x,y)
+Some people don't own everything.. You selected ∃x ∃y ¬P(x,y)
+Mr. Burns owns everything.. You selected ∀y P(Mr. Burns, y)
+An object cannot have more than one owner.. You selected ∀x ∀y ∀z ( P(x,z) ∧ P(y,z) → x=y )
+Some people own at most three things.. You selected ∃x ∃y ∃z ∃w ( P(x,y) ∧ P(x,z) ∧ P(x,w) ∧ ∀q ( P(x,q) → q=w ∨ q=y ∨q=z ) )
+Some things have more than one owner.. You selected ∃y ∃x ∃z ( x ≠ z ∧P(x,y) ∧P(z,y) )
+There is an object owned by everyone except one person.. You selected ∃y ∃x ( ¬P(x,y) ∧ ∀z ( z ≠ x → P(z,y) ) );
+According to Stephen Few, what is the purpose of visualization?	Visualization uses exploratory data analysis to find trends and patterns in datasets;
+Qualitative color scheme is best suited to which type of data?	Nominal;
+Which color scheme is best suited for ratio data where there is a meaningful zero point?	Divergent;
+Which statement describes the best practices of using colors effectively?	Use adjacent colors that vary in hue and value.;
+An online shopping website wants to visualize the behavior of its clients while they navigate through the site pages. Selecting customers within the ages of 20 and 50 would be done in which step of the visualization pipeline?	Filtering;
+Which of the following shapes should not be used when illustrating Bertin's orientation variable?	Figure 1;
+How many visual variables were identified by Bertin?	7;
+The use of computer-supported, interactive, visual representations of data to amplify cognition is defined by which term?	;
+Which figure represents the qualitative color scheme?	Figure 1;
+Which of the following is true for the visualization?(Select all that apply)	Visualization is a process of mapping information to visuals.
+Visualization can reveal unexpected patterns and trends in the data.
+Visualization can mislead and distort the truth when not used correctly.;
+According to Stephen Few, what is the purpose of visualization?	Visualization uses exploratory data analysis to find trends and patterns in datasets;
+Qualitative color scheme is best suited to which type of data?	Nominal;
+Which color scheme is best suited for ratio data where there is a meaningful zero point?	Divergent;
+Which statement describes the best practices of using colors effectively?	Use adjacent colors that vary in hue and value.;
+An online shopping website wants to visualize the behavior of its clients while they navigate through the site pages. Selecting customers within the ages of 20 and 50 would be done in which step of the visualization pipeline?	Filtering;
+Which of the following shapes should not be used when illustrating Bertin's orientation variable?	Figure 1;
+How many visual variables were identified by Bertin?	7;
+The use of computer-supported, interactive, visual representations of data to amplify cognition is defined by which term?	;
+Which figure represents the qualitative color scheme?	Figure 1;
+Which of the following is true for the visualization?(Select all that apply)	Visualization is a process of mapping information to visuals.
+Visualization can reveal unexpected patterns and trends in the data.
+Visualization can mislead and distort the truth when not used correctly.;
+Match the binary logical operators to their truth tables.Table ATable BTable CTable Dpq???TTTTFFFTTFFTpq???TTTTFTFTFFFTpq???TTFTFTFTTFFTpq???TTTTFTFTTFFF	p → q. You selected A
+q → p. You selected B
+p → ¬q. You selected C
+¬p → q. You selected D;
+Match the binary logical operators to their truth tables.Table ATable BTable CTable Dpq???TTTTFFFTFFFFpq???TTFTFTFTFFFFpq???TTFTFFFTTFFFpq???TTFTFFFTFFFT	p∧q. You selected A
+p∧¬q. You selected B
+¬p∧q. You selected C
+¬p∧¬q. You selected D;
+Match the binary logical operators to their truth tables.Table ATable BTable CTable Dpq???TTTTFTFTTFFFpq???TTTTFTFTFFFTpq???TTTTFFFTTFFTpq???TTFTFTFTTFFT	p∨q. You selected A
+p∨¬q. You selected B
+¬p∨q. You selected C
+¬p∨¬q. You selected D;
+A mathematician tells her son, "I will give you $100 only if you pass the class." Being a mathematician, she means exactly what she said.Check all true statements about this situation.	If he passes the class, she may pay him $100.
+Her statement defined passing the class as a necessary condition for receiving the $100.
+If she ended up paying him $100, he must have passed the class.
+If he doesn't pass the class, she will definitely not pay him $100.
+He will not get the $100 unless he passes the class.;
+Logical symbols: ∨ ∧ ¬ ∀ ∃ → ↔ ≡ ≢ ⊕ ↦ (11 symbols)	True;
+Arithmetic symbols: ÷ · × √ ∛ ∜ ± ↑ ⋆ ∘ ⌊ ⌋ ⌈ ⌉ (14 symbols)	True;
+Comparison operators: ≠ ≤ ≥ ≃ ≅ (5 symbols)	True;
+Simple fractions: ½ ⅓ ⅔ ¼ (4 symbols)	True;
+Sets and set operators: ∅ ℕ ℤ ℚ ℝ ℂ ∊ ∈ ∉ ∩ ∪ ⊂ ⊃ ⊆ ⊇ (15 symbols)	True;
+Superscripts: ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾ ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ (40 symbols)	True;
+subscripts: ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₊ ₋ ₌ ₍ ₎ ₐ ₑ ₒ ₓ ₕ ₖ ₗ ₘ ₙ ₚ ₛ ₜ (27 symbols)	True;
+If I could not view some of the characters above, and do not change the configuration of my browser or device, I may not be able to view quiz or exam questions correctly.	True;
+What is the correct negation of "There is someone in Spain who speaks at least 10 languages." ?	"Everyone in Spain speaks at most 9 languages.";
+True or False? If x is a real number, then 2·3ˣ = 6ˣ.	False;
+If x is a real number, then 3ˣ + 5ˣ	cannot be simplified.;
+If x is a real number, then 3ˣ · 5ˣ	= 15ˣ;
+If x is a positive real number, then log(xˣ) =	x · log(x);
+Check all functions that are polynomials.	5x³ + 2x² +  x + 1;
+True or False? Given a positive integer n and a polynomial f(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ... + a₁x + a₀ with aₙ ≠ 0, the end behavior rule says that..f rises on the right and on the left (i.e. goes to infinity as x goes to plus or minus infinity ) if aₙ > 0 and n even.f falls on the right and on the left (i.e. goes to minus infinity as x goes to plus or minus infinity) if aₙ < 0 and n even.f rises on the right and falls on the left (i.e. goes to infinity as x goes to infinity, and goes to minus infinity as x goes to minus infinity) if aₙ > 0 and n odd.f rises on the left and falls on the right (i.e. goes to infinity as x goes to minus infinity, and goes to infinity as x goes to minus infinity) if aₙ < 0 and n odd.	True;
+True or False? The first step in solving a quadratic equation is to move the constant term to the right side. Then we factor x out of the left side.For example, we start to solve x² + 3x + 2 = 0 by rewriting it asx² + 3x = -2.Then we factor the left side:x(x + 3) = -2.	;
+Check all approaches that may be used to factor a cubic.	Grouping. We factor x² out of the cubic and quadratic term. This may (but does not have to) produce x² times a linear term that is equal to the linear term of the cubic, or a constant multiple of it. For example, x³ + 5x² + x + 5 = x²(x+5) + x+5 = (x²+1)(x+5). x³ + 5x² + 7x + 35 = x²(x+5) + 7(x+5) = (x²+7)(x+5). This method only works in exceptional cases.
+If the constant term of the cubic is zero, we factor out x and then factor the remaining quadratic. For example, x³ + 7x² + 6x  = 0 is equivalent to x(x² + 7x + 6) = 0, which is equivalent to x(x+1)(x+6) = 0. This means that the three solutions are x=0, x=-1 and x=-6.  
+We use the rational zero test to determine a list of possible rational (including integer) solutions. We make a table of values and hopefully find a rational zero (if we don't find a rational zero, this method does not work.) Assuming that c is a rational zero of the cubic function f(x), we can now factor f(x) = (x-c) · q(x), where q(x) is a quadratic. We can carry out this factorization using synthetic or long division. Then we factor the quadratic. For example, the rational zero test says that ifx³ + x - 2 has any rational zeros, they must be contained in the list ±1, ±2. By substituting these values, we find that x= 1 is a zero. Thus, x³ + x - 2 = (x-1)·q(x), where q(x) is a quadratic. Carrying out synthetic division, we find thatx³ + x - 2 = (x-1)·(x² + x + 2). We can not find the remaining zeros by applying the quadratic formula to the quadratic.;
+Several students were asked to formalize the following argument by defining appropriate predicates and then giving the argument as a numbered listed of statements. Each statement was to be labeled either as a premise, or a conclusion from earlier statements, and the argument form used identified.Vegetarians don't eat meat. Bill is a vegetarian. Pork is a kind of meat. Therefore, Bill does not eat pork.Identify the correct answer.	Ananya: define the predicates V(x) = "x is a vegetarian." M(y) = "y is meat."E(x,y) = "x eats y."The variable x represents people, the variable y represents foods. 1. ∀x,y (V(x) ∧ M(y)→ ¬E(x,y) )  (premise)2. V(Bill) (premise)3. M(Pork) (premise)4. V(Bill) ∧ M(Pork) (conjunction from 2. and 3.)5. V(Bill) ∧ M(Pork)→ ¬E(Bill,Pork) (universal instantiation of 1.)6. ¬E(Bill,Pork) (modus ponens from 4. and 5.);
