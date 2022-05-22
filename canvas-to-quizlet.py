@@ -3,16 +3,22 @@ from bs4 import BeautifulSoup as bs
 import re
 import time
 
+# Global Variables for Reporting
 q_seen = 0
 a_seen = 0
 q_written = 0
 a_written = 0
 failure = 0
 
+# Options
+log = False
+adv_log = False
+set_view_results = True
+write_to_single_file = True
+
 
 def performance_test(func, args, repetitions=10, arg_list=None, name=None, print_times=True):
     def now(): return time.process_time()
-
     times = []
     t0 = now()
     for i in range(repetitions):
@@ -51,7 +57,7 @@ def performance_test(func, args, repetitions=10, arg_list=None, name=None, print
     print(f"\tRange of {stats['range']} seconds.")
 
 
-def get_pairs(file, log=False) -> dict:
+def get_pairs(file) -> dict:
     global a_seen, q_seen
     scrape = bs(file, features="html.parser")
     all_questions = scrape.select('div.text')
@@ -80,7 +86,8 @@ def get_pairs(file, log=False) -> dict:
         pairs.append([question_text, answer_texts])
         if log:
             print("# Answers: " + str(len(answers)))
-            # print('\n\t'.join(answer_texts))
+            if adv_log:
+                print('\n\t'.join(answer_texts))
     return pairs
 
 # get pairs with Select
@@ -89,13 +96,13 @@ def get_pairs(file, log=False) -> dict:
 
 
 def clean_up(txt, object_type=''):
-    txt = str(txt).replace('\n', '. ').replace(
+    txt = str(txt).replace('\n', '  ').replace(
         ';', '.').replace('\t', ' ')
     if object_type == 'answer':
         txt = txt.replace(". This was the correct answer.", '')
         txt = txt.replace(". You selected this answer", '')
         txt = txt.replace(". You selected ", " --> ")
-    return txt.strip().strip('.')
+    return txt.strip()
 
 
 def write_pairs(pairs: dict, location: str):
@@ -104,8 +111,8 @@ def write_pairs(pairs: dict, location: str):
         for pair in pairs:
             a_written += len(pair[1])
             q_written += 1
-            answer_as_text = '\n'.join(pair[1])
-            f.write(f"{pair[0]}\t{answer_as_text}\n\n")
+            answer_as_text = '\n\n'.join(pair[1])
+            f.write(f"{pair[0]}\t{answer_as_text};")
 
 
 def write_html_file(file, path):
@@ -131,36 +138,33 @@ def main():
     html_paths = get_HTML_paths_from_directory(
         "/Users/zak/dev/canvas-to-quizlet/examples/original_html")
 
-    print("File Count: ", len(html_paths))
-
     path = "/Users/zak/dev/canvas-to-quizlet/examples/full-size-output.txt"
     if os.path.exists(path):
         os.remove(path)
 
     # performance_test(do_run, [html_paths, output_path], repetitions=100, print_times=False)
-    do_run(html_paths, output_path=path, log=True)
+    do_run(html_paths, output_path=path)
 
-    view_run_results()
+    if set_view_results:
+        print("File Count: ", len(html_paths))
+        view_run_results()
 
 
-def do_run(html_paths, output_path=None, log=False):
+def do_run(html_paths, output_path=None):
     global failure
-    gen_paths = True
-    if output_path:
-        gen_paths = False
     for i, f in enumerate(html_paths):
         if log:
             print("\n\n", f[55:100])
         file = open(f, "r", encoding="utf8")
         content = file.read()
         file.close()
-        pairs = get_pairs(content, log=log)
+        pairs = get_pairs(content)
         if not pairs:
             failure += 1
             if log:
                 print("Write Failed!")
             continue
-        if gen_paths:
+        if not write_to_single_file or not output_path:
             output_path = get_output_path(f)
         write_pairs(pairs, output_path)
         if log:
@@ -168,19 +172,19 @@ def do_run(html_paths, output_path=None, log=False):
 
 
 def view_run_results():
-    print("\n\nRun Results:")
-    print("Questions Seen:", q_seen)
-    print("Questions Written", q_written)
+    print("\nRun Results:")
+    print("   Questions Seen:", q_seen)
+    print("   Questions Written", q_written)
     if q_seen != q_written:
         print("DISCREPANCY FOUND with QUESTIONS! A DIFFERENCE OF",
               abs(q_seen, q_written))
 
-    print("Answers Seen:", a_seen)
-    print("Answers Written", a_written)
+    print("   Answers Seen:", a_seen)
+    print("   Answers Written", a_written)
     if a_seen != a_written:
         print("DISCREPANCY FOUND with ANSWERS! A DIFFERENCE OF",
               abs(a_seen-a_written))
-    print("Failures:", failure)
+    print("   Failures:", failure)
 
 
 if __name__ == "__main__":
