@@ -1,7 +1,0 @@
-Check all statements that are equivalent to If the sky is not clear, then you don’t see the stars.	You see the stars only if the sky is clear.
-
-You don’t see the stars unless the sky is clear.
-
-If you see the stars, then the sky is clear.
-
-Clear sky is necessary to see the stars.;
