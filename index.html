@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Canvas to Quizlet Converter</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://releases.transloadit.com/uppy/v2.10.0/uppy.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Canvas Quiz to Quizlet Converter</h1>
+    <div class="container" id="drag-drop-area"></div>
+    <div id="ReadResult"></div>
+    <div>
+      <br><br>
+      <strong>Output</strong>
+      <br>
+      <textarea id="output" name="output" rows="30" cols="80"></textarea>
+      <br>
+      <button onclick="copyOutputToClipboard()" type="button">Copy Output to Clipboard</button>
+    </div>
+    <br>
+    <a href="https://quizlet.com/create-set">Create a Set with Quizlet</a>
+    <script type="text/javascript" src="https://releases.transloadit.com/uppy/v2.10.0/uppy.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="canvas-to-quizlet.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript">
+      function copyOutputToClipboard() {
+        var text = document.getElementById("output")
+        text.select()
+        text.setSelectionRange(0, 999999);
+        navigator.clipboard.writeText(text.value)
+        // alert("Text Copied!")
+      }
+    </script>
+  </div>
+</body>
+
+</html>

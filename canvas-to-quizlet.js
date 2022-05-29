@@ -16,6 +16,9 @@ class CanvasToQuizletConverter {
         var clean_up_var = this.clean_up
         $.each(all_questions, function(i, question) {
             let dirty_question_text = $(question).find('div.question_text, div.user_content').text()
+            if (dirty_question_text.indexOf('&lt')>=0) {
+                return
+            }
             var question_text = clean_up_var(dirty_question_text)
             console.log(question_text, dirty_question_text)
             var answers = $(question).find('div.answer_for_')
