@@ -1,5 +1,3 @@
-var html_results = []
-
 function getFileContents(result_files) {
   let contents = []
   result_files.forEach((m) => {
@@ -38,7 +36,16 @@ async function handleUploadResults(init_content) {
   for (i in html_results) {
     insertHTMLView(html_results[i], 'ReadResult')
   }
+  doConversion(html_results)
 }
+
+function doConversion(html_results) {
+  var converter = new CanvasToQuizletConverter()
+  var pairs = converter.convert_filelist_to_pairs(html_results)
+  converter.write_pairs(pairs)
+}
+
+var html_results = []
 
 var uppy = new Uppy.Core({restrictions: {allowedFileTypes: ['.html']}})
 .use(Uppy.Dashboard, {
@@ -47,14 +54,11 @@ var uppy = new Uppy.Core({restrictions: {allowedFileTypes: ['.html']}})
 })
 .use(Uppy.Tus, { endpoint: 'https://tusd.tusdemo.net/files/' })
 
-
 uppy.on('complete', (result) => {
   var val = result.successful
   console.log('Upload complete! We’ve uploaded these files:', val)
   var files = uppy.getFiles()
-  init_content = getFileContents(files)
+  var init_content = getFileContents(files)
   handleUploadResults(init_content)
   }
 )
-
-
