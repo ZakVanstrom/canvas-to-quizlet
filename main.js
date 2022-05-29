@@ -12,7 +12,7 @@ async function getHTMLContentFromFile(result_file) {
     let result = await new Promise((resolve) => {
         let fileReader = new FileReader();
         fileReader.onload = (e) => resolve(fileReader.result);
-        fileReader.readAsBinaryString(file);
+        fileReader.readAsText(file)
     });
     return result;
   }
@@ -33,16 +33,18 @@ async function handleUploadResults(init_content) {
     html_results.push(result)
   }
   
-  for (i in html_results) {
-    insertHTMLView(html_results[i], 'ReadResult')
-  }
+  // for (i in html_results) {
+  //   insertHTMLView(html_results[i], 'ReadResult')
+  // }
   doConversion(html_results)
 }
 
 function doConversion(html_results) {
   var converter = new CanvasToQuizletConverter()
   var pairs = converter.convert_filelist_to_pairs(html_results)
-  converter.write_pairs(pairs)
+  let pair_output = converter.write_pairs(pairs)
+  let textbox = document.getElementById('output')
+  textbox.textContent = pair_output
 }
 
 var html_results = []
