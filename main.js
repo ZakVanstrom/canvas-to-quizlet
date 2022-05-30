@@ -33,9 +33,7 @@ async function handleUploadResults(init_content) {
     html_results.push(result)
   }
   
-  // for (i in html_results) {
-  //   insertHTMLView(html_results[i], 'ReadResult')
-  // }
+  // for (i in html_results) {insertHTMLView(html_results[i], 'ReadResult')}
   doConversion(html_results)
 }
 
